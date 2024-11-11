@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLMASTER</title>
+    <meta property="og:title" content="Join Now!">
+    <meta property="og:url" content="index.html">
+    <meta property="og:description" content="3.5% Daily for 50 Days">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="center.png">
+    <!-- styles -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon-32x32.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link href="ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+<style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+         .container-first-screen {
+        text-align: center;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .centered-image {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .sub-title-main {
+        font-size: 16px;
+    }
+
+    .pink-btn {
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .main-title {
+            font-size: 20px;
+        }
+
+        .sub-title-main {
+            font-size: 14px;
+        }
+
+        .pink-btn {
+            margin-top: 10px;
+            }
+        }
+    </style>
+<style>
+    /* Apply a neon glow effect to the main title */
+    .main-title {
+        font-size: 48px; /* Adjust size as needed */
+        font-weight: bold;
+        color: #2c44cc; /* Light blue color */
+        text-align: center;
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff,
+                     0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff,
+                     0 0 60px #00ffff;
+        animation: neonGlow 1.5s ease-in-out infinite alternate;
+    }
+
+    /* Optional: Add a subtle glowing animation */
+    @keyframes neonGlow {
+        from {
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff,
+                         0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+        }
+        to {
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff,
+                         0 0 20px #00ffff, 0 0 25px #00ffff, 0 0 30px #00ffff;
+        }
+    }
+
+    /* Style for the centered image */
+    .centered-image {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+<style>
+    /* Neon glow effect for text */
+    .result {
+        font-size: 24px; /* Adjust as needed */
+        font-weight: bold;
+        color: #3239c0; /* Neon blue color */
+        text-align: center;
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff;
+        animation: neonGlow 1.5s ease-in-out infinite alternate;
+    }
+
+    .sub-text-result span {
+        font-size: 18px; /* Adjust as needed */
+        color: #2b43ae;
+        text-shadow: 0 0 3px #00ffff, 0 0 6px #00ffff, 0 0 9px #00ffff;
+    }
+
+    /* Optional: subtle pulsing animation */
+    @keyframes neonGlow {
+        0% {
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+        }
+        100% {
+            text-shadow: 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff;
+        }
+    }
+</style>
+
+
+
+</head>
+<body class="body">
+<section class="first-screen">
+    <!-- header -->
+
+    <header class="header">
+        <div class="container-info">
+            <div class="container-header">
+                <a href="#" class="container-logo">
+                    <div class="logo">
+                        <img src="images/logo.png"  width=200 heighth=212 alt="logo"/>
+                    </div>
+                </a>
+                <div class="header-contacts">
+                    <div class="container-btn-contacts">
+                        <button type="button" class="btn-contact connect" id="connectBtn">
+                            <span id="buttonConnectContent">Connect</span>
+                        </button>
+
+                    </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-first-screen">
+        <div class="container-info">
+            <div class="container-info-screen">
+                <div class="screen-block">
+                    <div class="text-container">
+                        <h1 class="main-title">
+                            Earn  
+                            <span>Passive Income</span>
+                            <div class="image-container">
+                                <img src="center.png" alt="Descriptive Alt Text" class="centered-image">
+                            </div>
+                        </h1>
+                        <p class="sub-title-main">
+                            <span></span>
+                            <br><span></span>
+                        </p>
+                        
+                    </div>
+                </div>
+              
+                
+                
+                <div class="screen-block right-screen">
+                    <div class="container-result">
+                        <div class="block-result">
+                            <p class="result" id="totalCurrencyInvested">0</p>
+                            <div class="sub-text-result">
+                                <span>Contract </span>
+                                <span class="pink-text">POL</span>
+                                <span class="bold-text">Balance</span>
+                            </div>
+                        </div>
+                        <div class="block-result">
+                            <p class="result" id="totalReferralReward">0</p>
+                            <div class="sub-text-result">
+                                <span>Total Referral</span>
+                                <span class="pink-text">POL</span>
+                                <span class="bold-text">Reward</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- first section -->
+
+<section class="section-info">
+    <div class="calculate-block-container">
+        <div class="container-info">
+            <div class="header-section">
+                <h2 class="title-header" id="investmentSectionTitle">Plan</h2>
+                   Plan
+                </h2>
+            </div>
+
+            <div class="container-calculate-info">
+                <div class="container-counter">
+                    <div class="deposit-block deposit">
+                        <h3 class="title-deposit">
+                            Staking (days):
+                        </h3>
+                        <div class="container-slider" id="slider-container">
+                            <div class="container-slider-range" id="js-slider">
+                            </div>
+                            <ul id="tickmarks" class="datalist">
+                                <li>50</li>
+                                <!-- <li>20</li> -->
+                                <li>50</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-counter-amount">
+                        <div class="deposit-block">
+                            <h3 class="title-deposit amount-title">
+                                Staking Amount:
+                            </h3>
+                            <div class="amount-field">
+                                <input type="number" id="depositAmount" class="amount-input" value="1" min="1" />
+                                <button class="amount-field-button" id="maxAmountButton">Max</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-counter">
+                    <div class="container-footer-info">
+                        <ul class="list-info">
+                            <li class="item-info">
+                                <h4 class="title-info">
+                                    Daily Percentage:
+                                </h4>
+                                <p id="dailyRoi">
+                                    3.5%
+                                </p>
+                            </li>
+                            <li class="item-info">
+                                <h4 class="title-info">
+                                    Total Profit:
+                                </h4>
+                                <p id="totalProfitPercent">
+                                    0%
+                                </p>
+                            </li>
+                            <li class="item-info">
+                                <h4 class="title-info">
+                                    In <span id="days">0</span> days
+                                    you will earn:
+                                </h4>
+                                <p class="pink-text">
+                                    <span id="profitCurrencyValue">105</span> <span>POL</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="pink-btn invest-btn" id="investButton">STAKE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- second section -->
+
+<section class="dashboard-section">
+    <div class="dashboard-block-container">
+        <div class="container-info">
+            <div class="header-section">
+                <h2 class="title-header">
+                    Dashboard
+                </h2>
+            </div>
+
+            <div class="container-dashboard-info">
+                <div class="container-info-block">
+                    <ul class="list-dashboard">
+                        <li class="item-dashboard">
+                            <div>
+                                <h5 class="title-block-item">
+                                    Withdrawable (Divs+Refs)
+                                </h5>
+                                <p class="info-item">
+                                    <span id="toWithdraw">0</span>
+                                    <span class="pink-text">POL</span>
+                                </p>
+                            </div>
+                        </li>
+						
+                        <li class="item-dashboard">
+                            <div>
+                                <h5 class="title-block-item">
+                                    Total Invested
+                                </h5>
+                                <p class="info-item">
+                                    <span id="investedByUser">0</span>
+                                    <span class="pink-text">POL</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-dashboard">
+                            <div>
+                                <h5 class="title-block-item">
+                                    Total Withdrawal
+                                </h5>
+                                <p class="info-item">
+                                    <span id="withdrawalByUser">0</span>
+                                    <span class="pink-text">POL</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-dashboard">
+                            <div>
+                                <h5 class="title-block-item">
+                                    Total Referral Reward
+                                </h5>
+                                <p class="info-item">
+                                    <span id="refRewardForUser">0</span>
+                                    <span class="pink-text">POL</span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="pink-btn withdraw-btn" id="withdrawButton">Withdraw</button>
+					<h4 class="title-info">
+                                    <span id="days1"></span>    
+                                </h4>
+
+				
+                    <div class="container-footer-dashboard">
+                        <h3 class="title-footer-dashboard">
+                            Your Referral Link:
+                            <span id="refLink">You will get your ref link after investing</span>
+                            <button class="btn-copy" id="copyButton"></button>
+                            <span class="title-copy" id="copiedSuccessfully" style="display: none;">Copied successfully !</span>
+                        </h3>
+                        <ul class="list-footer">
+                            <li class="item-footer">
+                                <h3 class="title-level">
+                                    1 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel1">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    8% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level second-level">
+                                    2 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel2">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    3% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level three-level">
+                                    3 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel3">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    2% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fourth-level">
+                                    4 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel4">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    1% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    5 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel5">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    1% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    6 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel6">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    1% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    7 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel7">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    0.5% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    8 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel8">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    0.5% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    9 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel9">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    0.5% Referral Rewards
+                                </p>
+                            </li>
+                            <li class="item-footer">
+                                <h3 class="title-level fifth-level">
+                                    10 LVL
+                                </h3>
+                                <p class="info-level">
+                                    <span id="referralsCountAtLevel10">0</span> referrals
+                                </p>
+                                <p class="info-level">
+                                    0.5% Referral Rewards
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer class="footer">
+    <div class="container-info">
+        <div class="container-footer-info">
+            <div class="mobile-flex">
+                <div class="container-logo-footer">
+                <span>
+                
+                </span>
+                    <span class="logo-span"> </span>
+                </div>
+                <ul class="contact-list mobile-fade">
+                    <li class="item-list telegram">
+                        <a href="https://t.me/" target="_blank" class="item-link"></a>
+                    </li>
+                </ul>
+            </div>
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://polygonscan.com/address/0x4bA7C4cBc2a199719AB194e134993920df6e2d73'">
+        CONTRACT
+    </button>
+</div>
+
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://solidityscan.com/'">
+        AUDIT
+    </button>
+</div>
+
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://telegram.me/polmasterglobalenglish
+'">
+        TELEGRAM - GLOBAL
+    </button>
+</div>
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://telegram.me/polmasterindonesian'">
+        TELEGRAM - IND
+    </button>
+</div>
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://telegram.me/polmasterjapanese'">
+        TELEGRAM - JAP
+    </button>
+</div>
+<div class="container-footer-btn">
+    <button type="button" class="pink-btn footer-btn-contact" 
+        onclick="window.location.href='https://telegram.me/polmasterchinese'">
+        TELEGRAM - CH
+    </button>
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="image-social">
+                    <div class="br1"></div>
+                </div>
+    </div>
+</footer>
+<a href="https://info.flagcounter.com/DkYX"><img src="https://s01.flagcounter.com/count/DkYX/bg_6F6FED/txt_050505/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<!-- popup windows -->
+
+<div class="wrapper-dark">
+    <div class="container-news"> 
+        <button type="button" class="close-window"></button>
+        <div class="container-window">
+            <div class="header-window">
+<p style="">
+                
+<br>
+
+<br>
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+
+</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-faq">
+        <div class="main-container-center">
+            <button type="button" class="close-window"></button>
+            <div class="faq-block">
+                <div class="window-header">
+                    <h2 class="title-window">
+                        FAQ
+                    </h2>
+                </div>
+                <div class="container-list-faq">
+                    <ul class="list-faq">
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    How to participate? 
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Operates on the Polygon Chain. In order to interact with the contract, you need to install the Metamask browser extension. An identical mobile application is also available for iPhone and Android users (Trust Wallet/Token Pocket.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    Is the smart contract verified? 
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Yes, the smart contract is fully verified. No vulnerabilities, no backdoors, and no scam scripts have been found in the smart contract. You can check the audit by clicking the "Audit" button at the top of this page. 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    How to invest?
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Enter the amount of POL you'd like to stake and click ‘STAKE’. That's it. 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    Staking Period?
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    3.5% For 50 Days, Total of 175% Total ROI.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    Can I make multiple investment? 
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Absolutely! There is no limit to the number of your investments.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    Do you have a referral program?
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Yes, our referral program features 10 levels of referral rewards. For the friends that you invite, you receive a % of their deposits. Check the percentages for each level on our website. 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="item-faq">
+                            <div class="header-item-faq">
+                                <button type="button" class="close-faq-item"></button>
+                                <h3 class="title-faq-item">
+                                    Where can I follow the latest news?
+                                </h3>
+                            </div>
+                            <div class="container-info-faq">
+                                <p>
+                                    Follow our Telegram channels where we publish all the latest updates.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- warn windows -->
+
+<div class="warn-container" id="warn" >
+    <div class="container-info">
+        <div class="info-warn">
+            <h3 class="title-warn" id="warnTitleContent">
+                NEW RULES ON SITE
+            </h3>
+            <p id="warnMainContent">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam
+            </p>
+        </div>
+        <button type="button" class="btn-contact warn-btn">
+            OK
+        </button>
+    </div>
+</div>
+
+<div class="warn-container error-warn" id="warn1">
+    <div class="container-info">
+        <div class="info-warn">
+            <h3 class="title-warn" id="errorTitleContent">
+                ERROR!
+            </h3>
+            <p id="errorMainContent">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+        </div>
+        <button type="button" class="btn-contact warn-btn">
+            OK
+        </button>
+    </div>
+</div>
+
+
+<!-- scripts -->
+
+<script src="lib/jQuery_3.6.0.js"></script>
+<script type="text/javascript" src="unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+<script type="text/javascript" src="unpkg.com/web3modal@1.9.4/dist/index.js"></script>
+<script type="text/javascript" src="unpkg.com/@walletconnect/web3-provider%401.6.6/dist/umd/index.min.js"></script>
+<script src="code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+<script src="lib/rxjs.min.js"></script>
+<script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+<script src="lib/jquery.numeric.js"></script>
+<script src="js/slider_drag.js"></script>
+<script src="abi/contract.abi.js"></script>
+<script src="js/main.js"></script>
+<script src="js/subjects.js"></script>
+<script src="js/observables.js"></script>
+<script src="js/observers.js"></script>
+<script src="js/dapp.js"></script>
+
+</body>
+
+
+
+
+
+</html>
